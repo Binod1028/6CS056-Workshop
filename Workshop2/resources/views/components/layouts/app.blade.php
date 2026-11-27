@@ -12,6 +12,7 @@
     <x-navbar />
 
     <main class="container">
+        <h1 class="visually-hidden">Training Institute Management System</h1>
         <x-alert />
         {{ $slot }}
     </main>

@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('email', 256)->unique();
             $table->string('phone', 20)->nullable();
             $table->text('address')->nullable();
-            $table->date('date_of_birth');
+            $table->date('date_of_birth')->nullable();
             $table->timestamps();
         });
     }
